@@ -52,7 +52,10 @@ CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockqu
 
 <b>›› /dlt_time :</b> sᴇᴛ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ᴛɪᴍᴇ
 <b>›› /check_dlt_time :</b> ᴄʜᴇᴄᴋ ᴄᴜʀʀᴇɴᴛ ᴅᴇʟᴇᴛᴇ ᴛɪᴍᴇ
+<b>›› /broadcast :</b> broadcast any messages to bot users.
 <b>›› /dbroadcast :</b> ʙʀᴏᴀᴅᴄᴀsᴛ ᴅᴏᴄᴜᴍᴇɴᴛ / ᴠɪᴅᴇᴏ
+<b>›› /stats :</b> check your bot uptime.
+<b>›› /users :</b> view bot statistics.
 <b>›› /ban :</b> ʙᴀɴ ᴀ ᴜꜱᴇʀ
 <b>›› /unban :</b> ᴜɴʙᴀɴ ᴀ ᴜꜱᴇʀ
 <b>›› /banlist :</b> ɢᴇᴛ ʟɪsᴛ ᴏꜰ ʙᴀɴɴᴇᴅ ᴜꜱᴇʀs
