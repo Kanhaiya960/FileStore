@@ -56,43 +56,42 @@
 * `SHORTLINK_API` = Your shortner API (ex. "PUIAQBIFrydvLhIzAOeGV8yZppu")
 </details>
 
-## 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
+## Bot 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
 
 ```
-/start - start the bot or get posts
-/batch - create link for more than one posts
-/genlink - create link for one post
-/users - view bot statistics
-/broadcast - broadcast any messages to bot users
+start - Start The Bot Or Get Posts.
+genlink - create link for one post.
+batch - create link for more than one posts.
+custom_batch - create custom batch from channel/group.
+myplan - check your premium status
+stats - checking your bot uptime.
+commands - only for the admins.
+```
+
+## Admin 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
+
+```
+/users - view bot statistics.
+/count - count shortner clicks.
+/broadcast - broadcast any messages to bot users.
 /dbroadcast - broadcast any messages with auto delete.
-/stats - checking your bot uptime
-/start - start the bot or get posts  
-/batch - create link for more than one posts  
-/custom_batch - create custom batch from channel/group  
-/genlink - create link for one post  
-/users - view bot statistics  
-/broadcast - broadcast any messages to bot users  
-/dbroadcast - broadcast any messages with auto delete  
-/stats - check your bot uptime  
-/dlt_time - set auto delete time for files  
-/check_dlt_time - check current delete time setting  
-/ban - ban a user from using the bot  
-/unban - unban a previously banned user  
-/banlist - get list of banned users  
-/addchnl - add a channel for force subscription  
-/delchnl - remove a force subscribe channel  
-/listchnl - view all added force subscribe channels  
-/fsub_mode - toggle force subscribe on or off  
-/pbroadcast - pin a broadcast to all user's chat 
-/add_admin - add a new admin  
-/deladmin - remove an admin  
-/admins - list all current admins  
-/addpremium - grant premium access to a user  
-/premium_users - list all premium users  
-/remove_premium - revoke premium from a user  
-/myplan - check your premium status  
-/count - count shortner clicks  
-/delreq - removed users that left chnl and not getting request fsub
+/pbroadcast - pin a broadcast to all user's chat.
+/dlt_time - set auto delete time for files.
+/check_dlt_time - check current delete time setting.
+/ban - ban a user from using the bot.
+/unban - unban a previously banned user.
+/banlist - get list of banned users.
+/fsub_mode - toggle force subscribe on or off.
+/addchnl - add a channel for force subscription.
+/delchnl - remove a force subscribe channel.
+/listchnl - view all added force subscribe channels.
+/add_admin - add a new admin.
+/deladmin - remove an admin.
+/admins - list all current admins.
+/addpremium - grant premium access to a user.
+/premium_users - list all premium users.
+/remove_premium - revoke premium from a users.
+/delreq - removed users that left chnl and not getting request fsub.
 ```
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
