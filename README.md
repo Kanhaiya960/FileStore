@@ -64,7 +64,6 @@ genlink - create link for one post.
 batch - create link for more than one posts.
 custom_batch - create custom batch from channel/group.
 myplan - check your premium status
-stats - checking your bot uptime.
 commands - only for the admins.
 ```
 
@@ -73,6 +72,7 @@ commands - only for the admins.
 ```
 /users - view bot statistics.
 /count - count shortner clicks.
+stats - checking your bot uptime.
 /broadcast - broadcast any messages to bot users.
 /dbroadcast - broadcast any messages with auto delete.
 /pbroadcast - pin a broadcast to all user's chat.
