@@ -45,7 +45,7 @@ scheduler.add_job(daily_reset_task, "cron", hour=0, minute=0)
 
 
 name ="""
- BY CODEFLIX BOTS
+ BY @Kanus_Network
 """
 
 def get_indian_time():
@@ -81,11 +81,11 @@ class Bot(Client):
         except Exception as e:
             self.LOGGER(__name__).warning(e)
             self.LOGGER(__name__).warning(f"Make Sure bot is Admin in DB Channel, and Double check the CHANNEL_ID Value, Current Value {CHANNEL_ID}")
-            self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/weebs_support for support")
+            self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/Kanus_Support for support")
             sys.exit()
 
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/weebs_support")
+        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/Kanus_Network")
         self.LOGGER(__name__).info(f"""       
 
 
@@ -99,7 +99,7 @@ class Bot(Client):
 
         self.set_parse_mode(ParseMode.HTML)
         self.username = usr_bot_me.username
-        self.LOGGER(__name__).info(f"Bot Running..! Made by @Codeflix_Bots")   
+        self.LOGGER(__name__).info(f"Bot Running..! Made by @Kanus_Network")   
 
         # Start Web Server
         app = web.AppRunner(await web_server())
@@ -107,7 +107,7 @@ class Bot(Client):
         await web.TCPSite(app, "0.0.0.0", PORT).start()
 
 
-        try: await self.send_message(OWNER_ID, text = f"<b><blockquote> Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ by @Codeflix_Bots</blockquote></b>")
+        try: await self.send_message(OWNER_ID, text = f"<b><blockquote> Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ by @Kanus_Network</blockquote></b>")
         except: pass
 
     async def stop(self, *args):
@@ -118,7 +118,7 @@ class Bot(Client):
         """Run the bot."""
         loop = asyncio.get_event_loop()
         loop.run_until_complete(self.start())
-        self.LOGGER(__name__).info("Bot is now running. Thanks to @rohit_1888")
+        self.LOGGER(__name__).info("Bot is now running. Thanks to @Kanus_Network")
         try:
             loop.run_forever()
         except KeyboardInterrupt:
