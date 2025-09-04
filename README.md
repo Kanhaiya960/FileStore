@@ -56,6 +56,7 @@ genlink - create link for one post.
 batch - create link for more than one posts.
 custom_batch - create custom batch from channel/group.
 stats - checking your bot uptime.
+commands - only for the admins.
 ```
 
 ## Admin 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
